@@ -8,7 +8,7 @@
     justify-content: center;
     gap: 25px;
     text-align: left;
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url(../img/dog.svg);
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url(../img/BackgroundMobile.svg);
     background-size: cover;
     background-position: center;
     color: rgb(255, 255, 255);
