@@ -61,9 +61,6 @@ nav,
   width: 34px;
 }
 
-.left span {
-  font-size: 4rem;
-}
 
 header {
   padding: 15px 0;
@@ -87,7 +84,10 @@ nav {
   margin: auto;
 }
 
-
+.nav-logo
+{
+  font-size: 3.5rem;
+}
 
 footer
 {
