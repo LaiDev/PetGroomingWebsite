@@ -1,0 +1,81 @@
+.two-column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  gap: 30px;
+  margin-bottom: 125px;
+}
+
+.two-column div {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+.price {
+  font-weight: bold;
+  font-size: 1.75rem;
+}
+
+#bath-haircut-service {
+  flex-direction: column-reverse;
+}
+
+.two-column p {
+  font-size: 1.4rem;
+  line-height: 2.5rem;
+}
+
+.book-button {
+  border-radius: 5px;
+  background-color: black;
+  color: white;
+  padding: 10px 80px;
+  font-size: 1.7rem;
+}
+
+@media screen and (min-width: 925px) {
+  h2 {
+    font-size: 3rem;
+  }
+
+  .price {
+    font-size: 2rem;
+  }
+
+  p {
+    font-size: 1.75rem;
+  }
+
+  .two-column {
+    flex-direction: row;
+  }
+
+  #bath-haircut-service {
+    flex-direction: row;
+  }
+
+  .two-column div {
+    width: 100%;
+  }
+
+  #bath-haircut-service .price,
+  #bath-haircut-service p,
+  #bath-haircut-service h2 {
+    text-align: left;
+    width: 100%;
+  }
+
+  .book-button {
+    text-align: left;
+  }
+}

@@ -1,0 +1,117 @@
+
+  
+  #hero {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+  }
+  
+  section {
+    margin-bottom: 125px;
+  }
+  
+  h1 {
+    font-size: 6rem;
+  }
+  
+  h2 {
+    font-size: 3rem;
+  }
+  
+  .button {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 1.75rem;
+  }
+  
+  #landing-services {
+    text-align: center;
+  }
+  
+  .landing-service-heading {
+    margin-bottom: 10px;
+  }
+  
+  .landing-services-container {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+  }
+  
+  .landing-service {
+    width: 33.33%;
+  }
+  
+  h3 {
+    font-size: 2rem;
+    margin: 10px 0;
+  }
+  
+  #satisfied-pets {
+    text-align: center;
+  }
+  
+  .satisfied-pets-heading {
+    margin-bottom: 50px;
+  }
+  
+  .satisfied-pets-gallery {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
+  .satisfied-pets-gallery * {
+    width: 30.3%;
+  }
+  
+  .gallery-item {
+    background-image: url("https://placehold.jp/150x150.png");
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 357px;
+  }
+  
+  .gallery-link {
+    font-size: 3rem;
+    width: 100%;
+  }
+  
+  #our-story {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+    padding: 150px 0;
+  }
+  
+  .our-story-heading {
+    width: 50%;
+  
+    text-align: center;
+    font-size: 4rem;
+  }
+  .our-story-right {
+    width: 50%;
+  
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    text-align: right;
+  }
+  
+  .our-story-right p {
+    margin-bottom: 50px;
+    font-size: 1.75rem;
+  }
