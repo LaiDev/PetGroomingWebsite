@@ -4,29 +4,42 @@
     height: 100vh;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
     gap: 25px;
+    text-align: left;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url(../img/dog.svg);
+    background-size: cover;
+    background-position: center;
+    color: rgb(255, 255, 255);
+    padding: 0 10px;
   }
   
   section {
-    margin-bottom: 125px;
+    margin-bottom: 150px;
   }
   
   h1 {
-    font-size: 6rem;
+    font-size: 5rem;
   }
   
   h2 {
-    font-size: 3rem;
+    font-size: 2.75rem;
   }
   
   .button {
     background-color: black;
-    color: white;
+    color: rgb(228, 254, 255);
+    font-weight: bold;
     padding: 10px;
     border-radius: 5px;
     font-size: 1.75rem;
+  }
+
+  .button:hover
+  {
+    background-color: rgb(228, 254, 255);
+    color:black;  
   }
   
   #landing-services {
@@ -36,19 +49,47 @@
   .landing-service-heading {
     margin-bottom: 10px;
   }
+
+  #landing-services a
+  {
+    font-size: 1.7rem;
+  }
   
   .landing-services-container {
     margin-top: 50px;
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
     gap: 25px;
   }
   
   .landing-service {
-    width: 33.33%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(247, 247, 247);
+    border-radius: 5px;
+    padding: 10px 10px 45px;
   }
   
+  .landing-service a
+  {
+    margin-top: 10px;
+  }
+
+  .landing-service img
+  {
+    width: 200px;
+  
+  }
+
+  .landing-service p
+  {
+    font-size: 1.5rem;
+  }
   h3 {
     font-size: 2rem;
     margin: 10px 0;
@@ -64,54 +105,133 @@
   
   .satisfied-pets-gallery {
     display: flex;
+     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
     gap: 10px;
+
   }
   
-  .satisfied-pets-gallery * {
-    width: 30.3%;
+  .satisfied-pets-gallery  {
+    width: 100%;
   }
-  
-  .gallery-item {
-    background-image: url("https://placehold.jp/150x150.png");
-    background-size: cover;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 357px;
-  }
-  
-  .gallery-link {
-    font-size: 3rem;
+
+  .satisfied-pets-gallery img
+  {
     width: 100%;
   }
   
+  
+
+  
   #our-story {
     display: flex;
-    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
-  
-    padding: 150px 0;
+    gap: 10px;
+
   }
   
-  .our-story-heading {
-    width: 50%;
-  
-    text-align: center;
-    font-size: 4rem;
+  .our-story-content
+  {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
   }
+
   .our-story-right {
-    width: 50%;
-  
+    width: 100%;
+    text-align: center;
     display: flex;
     flex-direction: column;
-    align-items: flex-end;
-    text-align: right;
+    
   }
   
   .our-story-right p {
     margin-bottom: 50px;
-    font-size: 1.75rem;
+
+  }
+
+
+
+  
+  @media screen and (min-width: 568px) {
+
+    #hero
+    {
+      background: linear-gradient(0deg, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.3)), url("../img/BackgroundDesktop.svg");
+      background-position: center;
+      background-size: cover;
+      text-align: center;
+      align-items: center;
+      padding: 0 80px;
+      width: 100vw;
+    }
+
+    .landing-service, 
+    .satisfied-pets-gallery img{
+      width: 45%;
+      max-width: 500px
+    }
+    
+    .our-story-right
+    {
+      width: 50%;
+    }
+
+footer p, footer a
+{
+  font-size: 1.5rem;
+}
+
+  }
+
+  @media screen and (min-width: 1025px)
+  {
+
+    h1
+    {
+      font-size: 6rem;
+    }
+    
+    #hero h2
+    {
+      font-size: 3rem;
+    }
+
+    
+    h2
+    {
+      font-size: 4rem;
+    }
+    
+    h3
+    {
+      font-size: 2.5rem;
+    }
+
+    .landing-service p
+    {
+      font-size: 1.75rem;
+    }
+
+    p
+    {
+      font-size: 2rem;
+    }
+
+    .our-story-logo
+    {
+      width: 300px;
+    }
+    .our-story-right
+    {
+      width: 30%;
+    }
+
+
   }

@@ -15,6 +15,12 @@ ul {
   list-style: none;
 }
 
+p
+{
+  font-size: 1.75rem;
+  line-height: 2.5rem;
+}
+
 .flex,
 body,
 nav,
@@ -27,9 +33,9 @@ nav,
 }
 
 #wrapper {
-  padding: 15px 50px;
+  padding: 15px 20px;
   max-width: 1920px;
-  width: 100vw;
+  margin: 0 auto;
 }
 
 .right {
@@ -67,7 +73,7 @@ header {
   left: 0;
   width: 100%;
   z-index: 10000;
-  background-color: rgb(187, 253, 255);
+  background-color: rgb(228, 254, 255);
 }
 
 nav,
@@ -85,7 +91,7 @@ nav {
 
 footer
 {
-  background-color: rgb(187, 253, 255);
+  background-color:  rgb(228, 254, 255);
   width: 100%;
   padding: 50px 0;
   text-align: center;
@@ -112,11 +118,11 @@ footer p, footer a
 
   .mobileNav {
     display: block;
-    position: fixed;
-    background-color: rgb(245, 245, 245);
+    position: absolute;
+    background-color: rgb(209, 232, 233);
     width: 100%;
     right: 0;
-    top: 8rem;
+    top: 7rem;
     overflow: hidden;
   }
 
