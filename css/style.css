@@ -92,15 +92,103 @@ nav {
 footer
 {
   background-color:  rgb(228, 254, 255);
+
   width: 100%;
   padding: 50px 0;
   text-align: center;
   position: relative;
   bottom: 0;
+ 
 }
+
+.footer-four-column
+{
+
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  gap: 15px;
+  margin-bottom: 50px;
+}
+
+.footer-info-column
+{
+  width: 80%;
+  font-size: 1.75px;
+}
+
+.footer-info-column p
+{
+  font-size: 1.7rem;
+}
+
+footer ul li
+  {
+    margin-bottom: 10px;
+  }
+
+  .footer-info-column,
+  .footer-browse-column,
+  .footer-services-column,
+  .footer-contact-column
+  {
+    padding: 25px;
+  }
+
+.footer-browse-heading,
+.footer-services-heading,
+.footer-contact-heading
+{
+  font-weight: bold;
+  font-size: 1.8rem;
+}
+
+.footer-browse-column li a,
+.footer-services-column li a,
+.footer-contact-column li a
+{
+  font-size: 1.4rem;
+}
+
+
+
 footer p, footer a
 {
   font-size: 1.3rem;
+}
+
+@media screen and (min-width: 1000px) {
+
+  .footer-four-column
+  {
+    flex-direction: row;
+
+  }
+  
+
+  .footer-info-column,
+  .footer-browse-column,
+  .footer-services-column,
+  .footer-contact-column
+  {
+
+    height: 100%;
+    width: 20%;
+  }
+
+  
+
+.footer-browse-heading,
+.footer-services-heading,
+.footer-contact-heading
+{
+  font-size: 2rem;
+}
+
+
 }
 
 @media screen and (max-width: 1025px) {
