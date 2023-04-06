@@ -1,3 +1,30 @@
+
+#services-hero
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url(../img/BackgroundMobile.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+  padding: 100px 50px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+#services-hero h1
+{
+  font-size: 4rem;
+  color: white;
+}
+
+#wrapper section
+{
+  margin-bottom: 150px;
+}
+
 .two-column {
   display: flex;
   flex-direction: column;
@@ -68,6 +95,13 @@ h2 {
     width: 100%;
   }
 
+
+  #bath-brush-service .two-column-right,
+  #nail-trim-service .two-column-right
+  {
+    align-items: flex-end;
+    text-align: right;
+  }
   #bath-haircut-service .price,
   #bath-haircut-service p,
   #bath-haircut-service h2 {

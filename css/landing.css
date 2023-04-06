@@ -172,10 +172,13 @@
       width: 100vw;
     }
 
+
+ 
+    
     .landing-service, 
     .satisfied-pets-gallery img{
       width: 45%;
-      max-width: 500px
+
     }
     
     .our-story-right
@@ -222,6 +225,11 @@ footer p, footer a
     p
     {
       font-size: 2rem;
+    }
+
+    .landing-service, 
+    .satisfied-pets-gallery img{
+      max-width: 300px
     }
 
     .our-story-logo
