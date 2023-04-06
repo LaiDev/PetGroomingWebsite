@@ -193,7 +193,7 @@ footer p, footer a
 
   }
 
-  @media screen and (min-width: 1025px)
+  @media screen and (min-width: 925px)
   {
 
     h1
@@ -207,6 +207,12 @@ footer p, footer a
     }
 
     
+    .button
+    {
+      font-size: 2rem;
+      padding: 15px;
+    }
+
     h2
     {
       font-size: 4rem;

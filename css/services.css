@@ -57,7 +57,7 @@ h2 {
   flex-direction: column-reverse;
 }
 
-.two-column p {
+p {
   font-size: 1.4rem;
   line-height: 2.5rem;
 }
@@ -68,12 +68,31 @@ h2 {
   color: white;
   padding: 10px 80px;
   font-size: 1.7rem;
+  font-weight: bold;
+}
+
+.book-button:hover
+  {
+    background-color: #8b746a;
+    color:white;  
+  }
+
+.two-column img
+{
+
+  width: 100%;
 }
 
 @media screen and (min-width: 925px) {
   h2 {
-    font-size: 3rem;
+    font-size: 4rem;
   }
+
+  .book-button
+{
+  font-size: 2rem;
+  padding: 15px 80px;
+}
 
   .price {
     font-size: 2rem;
@@ -101,6 +120,14 @@ h2 {
   {
     align-items: flex-end;
     text-align: right;
+    padding-left: 50px;
+  }
+
+  #bath-haircut-service .two-column-left
+  {
+    align-items: flex-start;
+    text-align: left;
+    padding-right: 50px;
   }
   #bath-haircut-service .price,
   #bath-haircut-service p,
@@ -112,4 +139,7 @@ h2 {
   .book-button {
     text-align: left;
   }
+
+
+ 
 }
