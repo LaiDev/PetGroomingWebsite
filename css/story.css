@@ -13,7 +13,7 @@
   margin-bottom: 50px;
 }
 
-#our-story-hero h1
+ h1
 {
   font-size: 4rem;
   color: white;
@@ -34,7 +34,7 @@
 
 }
 
-.our-story h2
+h2
 {
     font-size: 3rem;
     margin-bottom: 10px;
@@ -47,4 +47,34 @@
     align-items: flex-end;
     text-align: center;
     justify-content: center;
+}
+
+@media screen and (min-width: 925px) {
+ 
+  .our-story
+  {
+    flex-direction: row;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .our-story-right,
+  .our-story-left
+  {
+    width: 45%;
+  }
+
+  .our-story-right
+  {
+    text-align: right;
+  }
+
+  h2
+  {
+    font-size: 3.7rem;
+  }
+
+  
+
 }
