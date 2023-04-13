@@ -28,11 +28,16 @@
   h1 {
     font-size: 5rem;
   }
+
+  #hero h2
+  {
+    font-weight: 300;
+  }
   
   h2 {
     font-size: 2.75rem;
     margin: 20px 0;
-    font-weight: 300;
+
   }
   
   .button {
