@@ -159,7 +159,8 @@ footer ul li
 
 .footer-browse-column li a,
 .footer-services-column li a,
-.footer-contact-column li a
+.footer-contact-column li a,
+footer a
 {
   font-size: 1.75rem;
 }
