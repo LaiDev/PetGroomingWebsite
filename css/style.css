@@ -70,7 +70,7 @@ header {
   left: 0;
   width: 100%;
   z-index: 10000;
-  background-color: rgb(228, 254, 255);
+  background-color: #b4d2ba;
 }
 
 nav,
@@ -91,7 +91,7 @@ nav {
 
 footer
 {
-  background-color:  rgb(228, 254, 255);
+  background-color: #b4d2ba;
 
   width: 100%;
   padding: 50px 0;
