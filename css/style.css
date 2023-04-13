@@ -84,10 +84,17 @@ nav {
   margin: auto;
 }
 
-.nav-logo
+.nav-logo,
+.nav-logo-additional
 {
   font-size: 3.5rem;
 }
+
+.nav-logo-additional
+{
+  display: none;
+}
+
 
 footer
 {
@@ -160,6 +167,20 @@ footer p, footer a
   font-size: 1.3rem;
 }
 
+@media screen and (min-width: 400px)
+{
+.nav-logo,
+.nav-logo-additional
+{
+  font-size: 3.5rem;
+}
+
+.nav-logo-additional
+{
+  display: inline-block;
+}
+}
+
 @media screen and (min-width: 1000px) {
 
   .footer-four-column
@@ -207,7 +228,7 @@ footer p, footer a
   .mobileNav {
     display: block;
     position: absolute;
-    background-color: rgb(209, 232, 233);
+    background-color: #8eb495;
     width: 100%;
     right: 0;
     top: 7rem;
