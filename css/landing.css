@@ -8,15 +8,21 @@
     justify-content: center;
     gap: 25px;
     text-align: left;
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url(../img/BackgroundMobile.svg);
-    background-size: cover;
-    background-position: center;
-    color: rgb(255, 255, 255);
+    
+    background-color: #b4d2ba;
+    color: rgb(0, 0, 0);
     padding: 0 10px;
   }
+
+
   
   section {
     margin-bottom: 150px;
+  }
+
+  .hero-dog-outline
+  {
+    width: 250px;
   }
   
   h1 {
@@ -25,21 +31,23 @@
   
   h2 {
     font-size: 2.75rem;
+    margin: 20px 0;
+    font-weight: 300;
   }
   
   .button {
     background-color: black;
-    color: rgb(228, 254, 255);
+    color: white;
     font-weight: bold;
-    padding: 10px;
+    padding: 15px 80px;
     border-radius: 5px;
     font-size: 1.75rem;
   }
 
   .button:hover
   {
-    background-color: rgb(228, 254, 255);
-    color:black;  
+    background-color: #8b746a;
+    color:rgb(255, 255, 255);  
   }
   
   #landing-services {
@@ -163,9 +171,7 @@
 
     #hero
     {
-      background: linear-gradient(0deg, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.3)), url("../img/BackgroundDesktop.svg");
-      background-position: center;
-      background-size: cover;
+      
       text-align: center;
       align-items: center;
       padding: 0 80px;
@@ -210,7 +216,7 @@ footer p, footer a
     .button
     {
       font-size: 2rem;
-      padding: 15px;
+   
     }
 
     h2
