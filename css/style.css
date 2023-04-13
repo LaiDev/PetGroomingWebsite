@@ -129,12 +129,11 @@ footer
 .footer-info-column
 {
   width: 80%;
-  font-size: 1.75px;
 }
 
 .footer-info-column p
 {
-  font-size: 1.7rem;
+  font-size: 2rem;
 }
 
 footer ul li
@@ -155,22 +154,19 @@ footer ul li
 .footer-contact-heading
 {
   font-weight: bold;
-  font-size: 1.8rem;
+  font-size: 2.5rem;
 }
 
 .footer-browse-column li a,
 .footer-services-column li a,
 .footer-contact-column li a
 {
-  font-size: 1.4rem;
+  font-size: 1.75rem;
 }
 
 
 
-footer p, footer a
-{
-  font-size: 1.3rem;
-}
+
 
 @media screen and (min-width: 400px)
 {
@@ -204,15 +200,6 @@ footer p, footer a
     height: 100%;
     width: 20%;
   }
-
-  
-
-.footer-browse-heading,
-.footer-services-heading,
-.footer-contact-heading
-{
-  font-size: 2rem;
-}
 
 
 }
