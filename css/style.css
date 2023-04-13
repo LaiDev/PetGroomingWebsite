@@ -36,7 +36,7 @@ nav,
   flex-direction: column;
 }
 
-#wrapper {
+.wrapper {
   padding: 15px 20px;
   max-width: 1920px;
   margin: 0 auto;
