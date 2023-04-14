@@ -86,6 +86,7 @@
     background-color: rgb(247, 247, 247);
     border-radius: 5px;
     padding: 10px 10px 45px;
+    height: 400px;
   }
   
   .landing-service a
@@ -133,6 +134,7 @@
   .satisfied-pets-gallery img
   {
     width: 100%;
+
   }
   
   
@@ -186,10 +188,16 @@
 
  
     
-    .landing-service, 
-    .satisfied-pets-gallery img{
+    .landing-service
+    {
       width: 45%;
 
+    }
+
+    .satisfied-pets-gallery img
+    {
+      height: 400px;
+      width: auto;
     }
     
     .our-story-right
@@ -243,6 +251,8 @@
     .satisfied-pets-gallery img{
       max-width: 300px
     }
+
+   
 
     .our-story-logo
     {
