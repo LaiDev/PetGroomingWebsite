@@ -52,7 +52,7 @@ nav,
 
 .rightNavLinks li a {
   font-size: 2rem;
-  color: black;
+
 }
 
 #hamburgerMenu {
@@ -92,6 +92,7 @@ nav {
 .nav-logo-additional
 {
   font-size: 3.5rem;
+  color: black;
 }
 
 .nav-logo-additional
