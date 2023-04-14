@@ -197,11 +197,6 @@
       width: 50%;
     }
 
-footer p, footer a
-{
-  font-size: 1.5rem;
-}
-
   }
 
   @media screen and (min-width: 925px)
